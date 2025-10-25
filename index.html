@@ -37,8 +37,17 @@ fetch("episodes.json")
       grouped[ep.year].push(ep);
     });
 
-    // Build HTML per year
-    for (const year in grouped) {
+    // Sort years descending
+    const years = Object.keys(grouped).sort((a, b) => b - a);
+
+    years.forEach(year => {
+      // Sort episodes newest-first based on number in title
+      grouped[year].sort((a, b) => {
+        const numA = parseInt(a.title.match(/^#(\d+)/)[1], 10);
+        const numB = parseInt(b.title.match(/^#(\d+)/)[1], 10);
+        return numB - numA;
+      });
+
       const yearGroup = document.createElement("div");
       yearGroup.classList.add("year-group");
 
@@ -74,10 +83,10 @@ fetch("episodes.json")
       yearGroup.appendChild(btn);
       yearGroup.appendChild(epDiv);
       container.appendChild(yearGroup);
-    }
+    });
   })
   .then(() => {
-    // Once loaded, re-run your play/pause + collapsible logic
+    // Play/pause button logic
     const player = new Audio();
     document.querySelectorAll('.play-btn').forEach(btn => {
       const playIcon = btn.querySelector('.icon.play');
@@ -103,6 +112,7 @@ fetch("episodes.json")
       });
     });
 
+    // Collapsible years
     document.querySelectorAll('.year-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const episodesDiv = btn.nextElementSibling;
@@ -116,3 +126,4 @@ fetch("episodes.json")
 
 </body>
 </html>
+
