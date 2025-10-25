@@ -1,0 +1,34 @@
+[
+  {
+    "year": "2025",
+    "title": "#01: Alfie Getting Started",
+    "description": "Meet your hosts and learn what this podcast is all about.",
+    "audio": "episodes/episode1.mp3",
+    "image": "images/robot_pizza_with_number_EDIT.png",
+    "date": "Jan 1, 2025",
+    "duration": "42:15"
+  },
+  {
+    "year": "2025",
+    "title": "#02 — Alfie: The Art of Keeping Calm",
+    "description": "We explore mindfulness, creativity, and calm energy.",
+    "audio": "episodes/episode2.mp3",
+    "image": "images/robot_pizza_with_number_EDIT.png"
+	    "date": "Jan 1, 2025",
+    "duration": "42:15"
+  },
+  {
+    "year": "2024",
+    "title": "#03 — Alfie: Summer Adventures",
+    "description": "Stories from the road — travel, laughter, and sunshine.",
+    "audio": "episodes/episode3.mp3",
+    "image": "images/robot_pizza_with_number_EDIT.png"
+  },
+  {
+    "year": "2023",
+    "title": "#04 — Alfie: Old Memories",
+    "description": "A trip down memory lane with special guests.",
+    "audio": "episodes/episode4.mp3",
+    "image": "images/robot_pizza_with_number_EDIT.png"
+  }
+]
