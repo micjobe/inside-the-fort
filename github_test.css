@@ -9,8 +9,7 @@ html {
 body {
   font-family: 'Outfit', sans-serif;
   margin: 0;
-  /*background: #f9fafc;*/
-  background: pink;
+  background: #f9fafc;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -223,7 +222,7 @@ Unplayed = empty dotted circle
 @media (max-width: 700px) {
   .episode {
     flex-direction: row;
-    align-items: left;
+    align-items: flex-start;
     text-align: left;
     gap: 0.85rem;
     padding: 0.05rem;
@@ -253,7 +252,7 @@ Unplayed = empty dotted circle
   }
 
   .desc {
-    display: none
+    display: none;
   }
 
 .status-container {
@@ -272,4 +271,3 @@ footer {
   color: #777;
   text-align: center;
 }
-
