@@ -204,7 +204,7 @@ footer {
   }
 
   .episode-divider {
-    margin: 0.5rem 0;       /* reduce margin above/below divider */
+    margin: 0.25rem 0;       /* reduce margin above/below divider */
   }
   
   .cover, .status-container {
@@ -237,6 +237,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
