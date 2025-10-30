@@ -51,10 +51,13 @@ fetch("episodes.json")
       const episodesDiv = document.createElement("div");
       episodesDiv.classList.add("episodes");
 
-      // Sort newest episodes first by title number (#03, #02, etc.)
+      // Sort: if release_date exists, use it. Otherwise, fallback to episode number.
       grouped[year].sort((a, b) => {
-        const numA = parseInt(a.title.match(/#(\d+)/)?.[1] || 0);
-        const numB = parseInt(b.title.match(/#(\d+)/)?.[1] || 0);
+        if (a.release_date && b.release_date) {
+          return new Date(b.release_date) - new Date(a.release_date);
+        }
+        const numA = parseInt(a.number || a.title.match(/#?(\d+)/)?.[1] || 0);
+        const numB = parseInt(b.number || b.title.match(/#?(\d+)/)?.[1] || 0);
         return numB - numA;
       });
 
@@ -62,23 +65,42 @@ fetch("episodes.json")
       episodeCard.classList.add("episode-card");
 
       grouped[year].forEach((ep, i) => {
-        episodeCard.innerHTML += `
-          <div class="episode">
-            <img src="${ep.image}" alt="${ep.title} cover" class="cover">
-            <div class="content">
-              <h2>${ep.title}</h2>
-              <p class="desc">${ep.description}</p>
-              <div class="meta">
-                <span class="release-date">${ep.date}</span> • 
-                <span class="duration">${ep.duration}</span>
-              </div>
+        const episode = document.createElement("div");
+        episode.classList.add("episode");
+
+        episode.innerHTML = `
+          <img src="${ep.image}" alt="${ep.title} cover" class="cover">
+          <div class="content">
+            <div class="meta top">
+              <span class="episode-number">EPISODE ${String(ep.number).padStart(2, '0')}</span>
             </div>
-            <div class="status-container">
-              <div class="status-dot new"></div>
+            <h2>${ep.title}</h2>
+            <p class="desc">${ep.description}</p>
+            <div class="meta bottom">
+              <span class="duration">(${ep.duration})</span>
             </div>
           </div>
-          ${i < grouped[year].length - 1 ? '<hr class="episode-divider">' : ''}
+          <div class="status-container">
+            <div class="status-dot new"></div>
+          </div>
         `;
+
+        // Optional hidden release date (kept for sorting, not shown)
+        if (ep.release_date) {
+          const hiddenDate = document.createElement("span");
+          hiddenDate.classList.add("release-date");
+          hiddenDate.style.display = "none";
+          hiddenDate.textContent = ep.release_date;
+          episode.appendChild(hiddenDate);
+        }
+
+        episodeCard.appendChild(episode);
+
+        if (i < grouped[year].length - 1) {
+          const divider = document.createElement("hr");
+          divider.classList.add("episode-divider");
+          episodeCard.appendChild(divider);
+        }
       });
 
       episodesDiv.appendChild(episodeCard);
@@ -100,6 +122,6 @@ fetch("episodes.json")
   })
   .catch(err => console.error("Error loading episodes:", err));
 </script>
-
 </body>
 </html>
+
