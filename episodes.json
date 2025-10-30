@@ -4,34 +4,49 @@
     "title": "#01: Alfie Getting Started",
     "description": "Meet your hosts and learn what this podcast is all about.",
     "audio": "episodes/episode1.mp3",
-    "image": "images/photo_01.png",
+    "image": "images/robot_pizza_with_number_EDIT.png",
     "date": "Jan 1, 2025",
     "duration": "42:15"
   },
   {
-    "year": "2025",
-    "title": "#02 - Alfie: The Art of Keeping Calm",
-    "description": "We explore mindfulness, creativity, and calm energy.",
-    "audio": "episodes/episode2.mp3",
-    "image": "images/photo_02.png",
-	"date": "Jan 1, 2025",
-    "duration": "42:15"
-  },
-  {
     "year": "2024",
-    "title": "#03 - Alfie: Summer Adventures",
-    "description": "Stories from the road — travel, laughter, and sunshine.",
-    "audio": "episodes/episode3.mp3",
-    "image": "images/photo_03.png"
+    "title": "#005: Clothes, Drawings, Boys & Girls",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/images/photo_01.png",
+	"date": "Dec 31, 2023",
+    "duration": ""
   },
   {
     "year": "2023",
-    "title": "#04 - Alfie: Old Memories",
-    "description": "A trip down memory lane with special guests.",
-    "audio": "episodes/episode4.mp3",
-    "image": "images/photo_04.png"
+    "title": "#004: Tweleve Minute Year in Review",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_04.png",
+	"date": "Dec 31, 2023",
+    "duration": ""
+  },
+  {
+    "year": "2023",
+    "title": "#003: The Tweleve Minutes of Christmas",
+    "description": "We explore mindfulness, creativity, and calm energy.",
+    "audio": "episodes/episode2.mp3",
+    "image": "images/photo_03.png",
+	"date": "Dec xx, 2023",
+    "duration": ""
+  },
+  {
+    "year": "2023",
+    "title": "#002: Sound Waves, Johnny Hanukkah, Rollercaosters",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png"
+  },
+  {
+    "year": "2023",
+    "title": "#001: Hot & Cold, Colors, Counting",
+    "description": "Meet your hosts and learn what this podcast is all about.",
+    "audio": " ",
+    "image": "images/photo_01.png"
   }
 ]
-
-
-
