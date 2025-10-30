@@ -112,28 +112,18 @@ main {
   height: 100px;
   border-radius: 10px;
   object-fit: cover;
-  flex-shrink: 0;
+  flex-shrink: 1;
   margin: 0;
 }
 
 .content {
   /* remove: height: 100px; */
-  height: 100px;
+  height: auto;
   border: none;
   display: flex;
   flex-direction: column;
   flex: 1; /* optional, so it grows if needed */
 }
-
-/*
-.content {
-  border: none;
-  flex: 0 0 70%;
-  display: flex;
-  flex-direction: column;
-  height: 100px;
-}
-*/
 
 h2 {
   margin: 0 0 0.3rem;
@@ -248,7 +238,7 @@ Unplayed = empty dotted circle
 
   .content {
     border: none;
-    height: 50px;
+    height: auto;
   }
 
   .desc {
@@ -271,3 +261,4 @@ footer {
   color: #777;
   text-align: center;
 }
+
