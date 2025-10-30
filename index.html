@@ -10,7 +10,7 @@
 
 <body>
   <header>
-    <h1>🐨😆 Inside the Fort 😀🐨</h1>
+    <h1>🛖🛝 Inside the Fort 😀🐨</h1>
     <p>A podcast with Alfie and friends.</p>
     <!--h1>...</h1-->
   </header>
@@ -29,103 +29,77 @@ fetch("episodes.json")
   .then(res => res.json())
   .then(episodes => {
     const container = document.getElementById("episode-container");
-
-    // Sort episodes by year (descending), then by episode title number if possible
-    episodes.sort((a, b) => {
-      const yearDiff = b.year.localeCompare(a.year);
-      if (yearDiff !== 0) return yearDiff;
-      const numA = parseInt(a.title.match(/#(\d+)/)?.[1] || 0);
-      const numB = parseInt(b.title.match(/#(\d+)/)?.[1] || 0);
-      return numB - numA;
-    });
+    const grouped = {};
 
     // Group episodes by year
-    const grouped = {};
     episodes.forEach(ep => {
       if (!grouped[ep.year]) grouped[ep.year] = [];
       grouped[ep.year].push(ep);
     });
 
-    // Build HTML per year
-    Object.keys(grouped)
-      .sort((a, b) => b.localeCompare(a)) // newest year first
-      .forEach(year => {
-        const yearGroup = document.createElement("div");
-        yearGroup.classList.add("year-group");
+    // Sort years (newest first)
+    const years = Object.keys(grouped).sort((a, b) => b - a);
 
-        const btn = document.createElement("button");
-        btn.classList.add("year-btn");
-        btn.textContent = year;
+    years.forEach(year => {
+      const yearGroup = document.createElement("div");
+      yearGroup.classList.add("year-group");
 
-        const epDiv = document.createElement("div");
-        epDiv.classList.add("episodes");
+      const btn = document.createElement("button");
+      btn.classList.add("year-btn");
+      btn.textContent = year;
 
-        grouped[year].forEach(ep => {
-          epDiv.innerHTML += `
-            <section class="episode" data-year="${ep.year}">
-              <img src="${ep.image}" alt="${ep.title} cover" class="cover">
-              <div class="content">
-                <h2>${ep.title}</h2>
-                <p class="desc">${ep.description}</p>
-                ${ep.date ? `<div class="meta"><span class="release-date">${ep.date}</span> • <span class="duration">${ep.duration || ''}</span></div>` : ''}
-              </div>
-              <div class="play-btn" data-episode="${ep.audio}">
-                <svg class="icon play" viewBox="0 0 100 100" width="28" height="28" fill="white">
-                  <polygon points="35,25 75,50 35,75"/>
-                </svg>
-                <svg class="icon pause" viewBox="0 0 100 100" width="28" height="28" fill="white">
-                  <rect x="35" y="25" width="10" height="50"/>
-                  <rect x="55" y="25" width="10" height="50"/>
-                </svg>
-              </div>
-            </section>
-          `;
-        });
+      const episodesDiv = document.createElement("div");
+      episodesDiv.classList.add("episodes");
 
-        yearGroup.appendChild(btn);
-        yearGroup.appendChild(epDiv);
-        container.appendChild(yearGroup);
+      // Sort newest episodes first by title number (#03, #02, etc.)
+      grouped[year].sort((a, b) => {
+        const numA = parseInt(a.title.match(/#(\d+)/)?.[1] || 0);
+        const numB = parseInt(b.title.match(/#(\d+)/)?.[1] || 0);
+        return numB - numA;
       });
 
-    // Audio player and toggles
-    const player = new Audio();
-    document.querySelectorAll('.play-btn').forEach(btn => {
-      const playIcon = btn.querySelector('.icon.play');
-      const pauseIcon = btn.querySelector('.icon.pause');
-      pauseIcon.style.display = 'none';
+      const episodeCard = document.createElement("div");
+      episodeCard.classList.add("episode-card");
 
-      btn.addEventListener('click', () => {
-        const src = btn.getAttribute('data-episode');
-        if (player.src.includes(src) && !player.paused) {
-          player.pause();
-          playIcon.style.display = 'block';
-          pauseIcon.style.display = 'none';
-        } else {
-          document.querySelectorAll('.play-btn').forEach(b => {
-            b.querySelector('.icon.play').style.display = 'block';
-            b.querySelector('.icon.pause').style.display = 'none';
-          });
-          player.src = src;
-          player.play();
-          playIcon.style.display = 'none';
-          pauseIcon.style.display = 'block';
-        }
+      grouped[year].forEach((ep, i) => {
+        episodeCard.innerHTML += `
+          <div class="episode">
+            <img src="${ep.image}" alt="${ep.title} cover" class="cover">
+            <div class="content">
+              <h2>${ep.title}</h2>
+              <p class="desc">${ep.description}</p>
+              <div class="meta">
+                <span class="release-date">${ep.date}</span> • 
+                <span class="duration">${ep.duration}</span>
+              </div>
+            </div>
+            <div class="status-container">
+              <div class="status-dot new"></div>
+            </div>
+          </div>
+          ${i < grouped[year].length - 1 ? '<hr class="episode-divider">' : ''}
+        `;
       });
+
+      episodesDiv.appendChild(episodeCard);
+      yearGroup.appendChild(btn);
+      yearGroup.appendChild(episodesDiv);
+      container.appendChild(yearGroup);
     });
 
-    // Expand/collapse each year
+    // Collapsible years
     document.querySelectorAll('.year-btn').forEach(btn => {
       btn.addEventListener('click', () => {
+        const yearGroup = btn.closest('.year-group');
         const episodesDiv = btn.nextElementSibling;
         const isHidden = episodesDiv.style.display === 'none';
         episodesDiv.style.display = isHidden ? 'block' : 'none';
+        yearGroup.classList.toggle('collapsed', !isHidden);
       });
     });
   })
   .catch(err => console.error("Error loading episodes:", err));
 </script>
+
 </body>
 </html>
-
-
-
