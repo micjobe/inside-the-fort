@@ -158,7 +158,7 @@ h2 {
 .episode-divider {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .episode-card .episode:last-of-type + .episode-divider {
@@ -237,5 +237,6 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
