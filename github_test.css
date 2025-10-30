@@ -194,7 +194,7 @@ h2 {
 
 /* Unplayed episode = blue dot */
 .status-dot.new {
-  background-color: #007bff;  bright blue 
+  background-color: #007bff;  /* bright blue */ 
 }
 
 
