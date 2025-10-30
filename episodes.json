@@ -10,34 +10,124 @@
   },
   {
     "year": "2024",
+    "title": "#025: Dragon Stone",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_01.png",
+	"date": "May? xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#024: Kindergarten ABC Countdown",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_01.png",
+	"date": "May? xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#023: [EPISODE MISSING]",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_04.png",
+	"date": "May? xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#022: Funny, But Silly, Dreamhouse",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_03.png",
+	"date": "May? xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#021: Post-Illness Bedtime Routine",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "April xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#020: Baking Cupcakes [VIDEO]",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_01.png",
+	"date": "April xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#019: It's a Portal! [VIDEO]",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_04.png",
+	"date": "April xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#018: BREAKING NEWS - Koko Returns",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_03.png",
+	"date": "March xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#017: Glass, Metal, Plastic, Foam",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "March xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#016: hmMarch2024dotcomPBSKids",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_03.png",
+	"date": "March xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#015: Planet Weekend - Part 3",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "March xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#014: Planet Weekend - Part 2",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "March xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#013: Planet Weekend - Part 1",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "March xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
     "title": "#012 - The February Files - Case #02292024",
-    "description": "[description needed]",
-    "audio": " ",
-    "image": "images/photo_02.png",
-	"date": "Feb xx, 2024",
-    "duration": ""
-  },
-  {
-    "year": "2024",
-    "title": "#012 - The February Files - Case #02242024",
-    "description": "[description needed]",
-    "audio": " ",
-    "image": "images/photo_02.png",
-	"date": "Feb xx, 2024",
-    "duration": ""
-  },
-  {
-    "year": "2024",
-    "title": "#011 - The February Files - Case #02142024",
-    "description": "[description needed]",
-    "audio": " ",
-    "image": "images/photo_02.png",
-	"date": "Feb xx, 2024",
-    "duration": ""
-  },
-  {
-    "year": "2024",
-    "title": "#010 - The February Files - Case #02022024",
     "description": "[description needed]",
     "audio": " ",
     "image": "images/photo_01.png",
@@ -46,7 +136,34 @@
   },
   {
     "year": "2024",
-    "title": "The February Files [PROMO]",
+    "title": "#011 - The February Files - Case #02242024",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_01.png",
+	"date": "Feb xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#010 - The February Files - Case #02142024",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_01.png",
+	"date": "Feb xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#009 - The February Files - Case #02022024",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_01.png",
+	"date": "Feb xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#009 - The February Files [PROMO]",
     "description": "[description needed]",
     "audio": " ",
     "image": "images/photo_01.png",
