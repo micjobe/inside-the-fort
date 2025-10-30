@@ -200,7 +200,7 @@ footer {
 
   .episode {
     flex-direction: row;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
   .episode-divider {
@@ -237,3 +237,4 @@ footer {
     font-size: 0.9rem;
   }
 }
+
