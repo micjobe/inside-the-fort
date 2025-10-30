@@ -95,6 +95,11 @@ h2 {
   font-size: 1.2rem;
   color: #333;
   margin-bottom: 0.3rem;
+
+  /* Truncate long titles */
+  white-space: nowrap;       /* prevents wrapping to a new line */
+  overflow: hidden;          /* hides overflowing text */
+  text-overflow: ellipsis;   /* shows ... at the end */
 }
 
 .desc {
@@ -186,3 +191,4 @@ footer {
     margin: 0.5rem 0;
   }
 }
+
