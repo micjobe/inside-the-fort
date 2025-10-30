@@ -78,11 +78,10 @@ main {
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  padding: 0.75rem 1rem;  /* reduce vertical padding */
-  margin: 0.25rem 0;      /* smaller spacing between cards */
+  padding: 1.5rem;
+  margin: 0 0 1rem 0;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;            /* less gap between episodes inside a card */
 }
 
 /* Episode layout */
@@ -190,7 +189,14 @@ footer {
   }
 
   .episode-card {
-    padding: 1rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    padding: 0.75rem 1rem;  /* reduce vertical padding */
+    margin: 0.25rem 0;      /* smaller spacing between cards */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;            /* less gap between episodes inside a card */
   }
 
   .episode {
@@ -228,5 +234,6 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
