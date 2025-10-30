@@ -112,14 +112,14 @@ main {
 /* Top meta (episode number) */
 .meta.top {
   font-size: 0.85rem;
-  color: #555;
+  color: #999;
   margin-bottom: 0rem;
 }
 
 /* Bottom meta (duration) */
 .meta.bottom {
   font-size: 0.85rem;
-  color: #555;
+  color: #999;
   margin-top: 0rem;
 }
 
@@ -133,7 +133,7 @@ h2 {
 
 /* Description — truncated to 2 lines */
 .desc {
-  color: #555;
+  color: #999;
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -250,6 +250,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
