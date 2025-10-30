@@ -10,16 +10,88 @@
   },
   {
     "year": "2024",
+    "title": "#012 - The February Files - Case #02292024",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "Feb xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#012 - The February Files - Case #02242024",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "Feb xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#011 - The February Files - Case #02142024",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "Feb xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#010 - The February Files - Case #02022024",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_01.png",
+	"date": "Feb xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "The February Files [PROMO]",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_01.png",
+	"date": "Feb xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#008: The Race [EXTENDED]",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_04.png",
+	"date": "Jan xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#007: Crooked, Twisty, Stick Shifty",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_03.png",
+	"date": "Jan xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
+    "title": "#006: Brains, Names, Tickles",
+    "description": "[description needed]",
+    "audio": " ",
+    "image": "images/photo_02.png",
+	"date": "Jan xx, 2024",
+    "duration": ""
+  },
+  {
+    "year": "2024",
     "title": "#005: Clothes, Drawings, Boys & Girls",
     "description": "[description needed]",
     "audio": " ",
     "image": "images/photo_01.png",
-	"date": "Dec 31, 2023",
+	"date": "Dec 31, 2024",
     "duration": ""
   },
   {
     "year": "2023",
-    "title": "#004: Tweleve Minute Year in Review",
+    "title": "#004: Twelve Minute Year in Review",
     "description": "[description needed]",
     "audio": " ",
     "image": "images/photo_04.png",
@@ -28,7 +100,7 @@
   },
   {
     "year": "2023",
-    "title": "#003: The Tweleve Minutes of Christmas",
+    "title": "#003: The Twelve Minutes of Christmas",
     "description": "We explore mindfulness, creativity, and calm energy.",
     "audio": "episodes/episode2.mp3",
     "image": "images/photo_03.png",
@@ -37,7 +109,7 @@
   },
   {
     "year": "2023",
-    "title": "#002: Sound Waves, Johnny Hanukkah, Rollercaosters",
+    "title": "#002: Sound Waves, Johnny Hanukkah, Rollercoasters",
     "description": "[description needed]",
     "audio": " ",
     "image": "images/photo_02.png"
@@ -50,3 +122,4 @@
     "image": "images/photo_01.png"
   }
 ]
+
