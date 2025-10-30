@@ -75,6 +75,9 @@ main {
 
 /* Episode card */
 .episode-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   padding: 0.75rem 1rem;  /* reduce vertical padding */
   margin: 0.25rem 0;      /* smaller spacing between cards */
   display: flex;
@@ -225,4 +228,5 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
