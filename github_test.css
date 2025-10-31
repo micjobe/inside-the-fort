@@ -129,6 +129,11 @@ h2 {
   font-size: 1.2rem;
   color: #333;
   line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 /* Description — truncated to 2 lines */
@@ -250,6 +255,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
