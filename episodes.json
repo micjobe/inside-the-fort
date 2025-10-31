@@ -10,6 +10,15 @@
   },
   {
     "year": "2024",
+    "number": 10,
+    "title": "The February Files - Case #02142024",
+    "description": "[add description]",
+    "duration": "8:51",
+    "image": "images/photo_01.png",
+    "release_date": "2024-02-02"
+  },  
+  {
+    "year": "2024",
     "number": 9,
     "title": "The February Files - Case #02022024",
     "description": "[add description]",
@@ -99,6 +108,7 @@
     "release_date": "2023-12-09"
   }
 ]	
+
 
 
 
