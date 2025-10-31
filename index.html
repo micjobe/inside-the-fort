@@ -72,7 +72,7 @@ fetch("episodes.json")
         const episodeLabel =
           ep.number === undefined || ep.number === "" ? "" :
           isNaN(ep.number) ? ep.number :
-          `Episode ${ep.number}`;
+          `EPISODE ${ep.number}`;
 
         episodeCard.innerHTML += `
           <div class="episode">
