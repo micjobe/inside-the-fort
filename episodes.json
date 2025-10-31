@@ -4,10 +4,397 @@
     "number": 3,
     "title": "The Great Pillow Fort Heist",
     "description": "Alfie and friends retell the infamous fort robbery of 2022.",
-    "duration": "38:25",
-    "image": "images/photo_03.png",
+    "duration": "7:43",
+    "image": "images/photo_01.png",
     "release_date": "2025-11-15"
   },
+  {
+    "year": "2024",
+    "number": "52",
+    "title": "Memory Jar",
+    "description": "[add description]",
+    "duration": "27:11",
+    "image": "images/photo_03.png",
+    "release_date": "2024-12-31"
+  },  
+  {
+    "year": "2024",
+    "number": "51",
+    "title": "[Unfinished Xmas Episode]",
+    "description": "[add description]",
+    "duration": "",
+    "image": "images/photo_02.png",
+    "release_date": "2024-12-24"
+  },  
+  {
+    "year": "2024",
+    "number": "BONUS",
+    "title": "Polar Express [EXTENDED]",
+    "description": "[add description]",
+    "duration": "1:09:36",
+    "image": "images/photo_01.png",
+    "release_date": "2024-12-02"
+  },  
+  {
+    "year": "2024",
+    "number": 50,
+    "title": "Polar Express",
+    "description": "[add description]",
+    "duration": "28:38",
+    "image": "images/photo_01.png",
+    "release_date": "2024-12-01"
+  },  
+  {
+    "year": "2024",
+    "number": 49,
+    "title": "[MISSING]",
+    "description": "[add description]",
+    "duration": "",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 48,
+    "title": "Thanksgiving",
+    "description": "[add description]",
+    "duration": "",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 47,
+    "title": "Halloween Makeover",
+    "description": "[add description]",
+    "duration": "",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 46,
+    "title": "Spooky Season - Part 4",
+    "description": "[add description]",
+    "duration": "",
+    "image": "images/photo_01.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 45,
+    "title": "Spooky Season - Part 3",
+    "description": "[add description]",
+    "duration": "12:33",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 44,
+    "title": "Spooky Season - Part 2",
+    "description": "[add description]",
+    "duration": "5:59",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 43,
+    "title": "Spooky Season - Part 1",
+    "description": "[add description]",
+    "duration": "8:58",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 42,
+    "title": "The Monarch Chronicles",
+    "description": "[add description]",
+    "duration": "13:48",
+    "image": "images/photo_01.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 41,
+    "title": "Bicycle",
+    "description": "[add description]",
+    "duration": "6:39",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 40,
+    "title": "First Grade",
+    "description": "[add description]",
+    "duration": "10:25",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 39,
+    "title": "Art Camp - Final Presentation",
+    "description": "[add description]",
+    "duration": "11:03",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 38,
+    "title": "Art Camp - Mask",
+    "description": "[add description]",
+    "duration": "5:03",
+    "image": "images/photo_01.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 37,
+    "title": "We're Not Gonna Take It",
+    "description": "Alfie discovers his new favorite song.",
+    "duration": "14:23",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 36,
+    "title": "Doctor's Visit",
+    "description": "[add description]",
+    "duration": "6:26",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },    
+  {
+    "year": "2024",
+    "number": 35,
+    "title": "Dream Journal #4",
+    "description": "[add description]",
+    "duration": "13:17",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 34,
+    "title": "Bird Sanctuary",
+    "description": "[add description]",
+    "duration": "9:16",
+    "image": "images/photo_01.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 33,
+    "title": "Art Camp - Superheroes",
+    "description": "[add description]",
+    "duration": "14:10",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 32,
+    "title": "Art Camp - Up in the Air",
+    "description": "[add description]",
+    "duration": "6:36",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 31,
+    "title": "Tooth Fairy",
+    "description": "[add description]",
+    "duration": "14:56",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 30,
+    "title": "Father's Day",
+    "description": "[add description]",
+    "duration": "5:17",
+    "image": "images/photo_01.png",
+    "release_date": ""
+  },   
+  {
+    "year": "2024",
+    "number": 29,
+    "title": "Dream Journal #3",
+    "description": "[add description]",
+    "duration": "6:35",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 28,
+    "title": "Dairy Day Parade",
+    "description": "[add description]",
+    "duration": "14:54",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },   
+  {
+    "year": "2024",
+    "number": 27,
+    "title": "Dream Journal #2",
+    "description": "[add description]",
+    "duration": "5:24",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 26,
+    "title": "Dream Journal #1",
+    "description": "[add description]",
+    "duration": "7:36",
+    "image": "images/photo_01.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 25,
+    "title": "Dragon Stone",
+    "description": "[add description]",
+    "duration": "11:34",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 24,
+    "title": "Kindergarten ABC Countdown",
+    "description": "[add description]",
+    "duration": "9:40",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 23,
+    "title": "Mother's Day",
+    "description": "[add description]",
+    "duration": "",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },   
+  {
+    "year": "2024",
+    "number": 22,
+    "title": "Funny, But Silly, Dreamhouse",
+    "description": "[add description]",
+    "duration": "8:15",
+    "image": "images/photo_01.png",
+    "release_date": ""
+  }, 
+  {
+    "year": "2024",
+    "number": 21,
+    "title": "Post-Illness Bedtime Routine",
+    "description": "[add description]",
+    "duration": "5:29",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 20,
+    "title": "Baking Cupcakes",
+    "description": "[Video]",
+    "duration": "",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },   
+  {
+    "year": "2024",
+    "number": 19,
+    "title": "Its a Portal!",
+    "description": "[Video]",
+    "duration": "",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },   
+  {
+    "year": "2024",
+    "number": 18,
+    "title": "*BREAKING NEWS*",
+    "description": "Koko returns!",
+    "duration": "5:08",
+    "image": "images/photo_01.png",
+    "release_date": ""
+  },    
+  {
+    "year": "2024",
+    "number": 17,
+    "title": "Glass, Metal, Plastic, Foam",
+    "description": "[add description]",
+    "duration": "5:00",
+    "image": "images/photo_04.png",
+    "release_date": ""
+  },   
+  {
+    "year": "2024",
+    "number": 16,
+    "title": "hmMarch2024dotcomPBSKids",
+    "description": "[add description]",
+    "duration": "5:00",
+    "image": "images/photo_03.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 15,
+    "title": "Planet Weekend - Part 3",
+    "description": "[add description]",
+    "duration": "7:43",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },   
+  {
+    "year": "2024",
+    "number": 14,
+    "title": "Planet Weekend - Part 2",
+    "description": "[add description]",
+    "duration": "5:00",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 13,
+    "title": "Planet Weekend - Part 1",
+    "description": "[add description]",
+    "duration": "8:37",
+    "image": "images/photo_02.png",
+    "release_date": ""
+  },  
+  {
+    "year": "2024",
+    "number": 12,
+    "title": "The February Files - Case #02292024",
+    "description": "[add description]",
+    "duration": "11:45",
+    "image": "images/photo_01.png",
+    "release_date": "2024-02-29"
+  },   
+  {
+    "year": "2024",
+    "number": 11,
+    "title": "The February Files - Case #02242024",
+    "description": "[add description]",
+    "duration": "7:19",
+    "image": "images/photo_01.png",
+    "release_date": "2024-02-22"
+  },   
   {
     "year": "2024",
     "number": 10,
@@ -15,7 +402,7 @@
     "description": "[add description]",
     "duration": "8:51",
     "image": "images/photo_01.png",
-    "release_date": "2024-02-02"
+    "release_date": "2024-02-14"
   },  
   {
     "year": "2024",
@@ -108,6 +495,7 @@
     "release_date": "2023-12-09"
   }
 ]	
+
 
 
 
