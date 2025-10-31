@@ -51,13 +51,17 @@ fetch("episodes.json")
       const episodesDiv = document.createElement("div");
       episodesDiv.classList.add("episodes");
 
-      // Sort: if release_date exists, use it. Otherwise, fallback to episode number.
+      // Sort by release_date (newest first) or fallback to number if missing
       grouped[year].sort((a, b) => {
-        if (a.release_date && b.release_date) {
-          return new Date(b.release_date) - new Date(a.release_date);
-        }
-        const numA = parseInt(a.number || a.title.match(/#?(\d+)/)?.[1] || 0);
-        const numB = parseInt(b.number || b.title.match(/#?(\d+)/)?.[1] || 0);
+        const dateA = a.release_date ? new Date(a.release_date) : null;
+        const dateB = b.release_date ? new Date(b.release_date) : null;
+
+        if (dateA && dateB) return dateB - dateA; // newest first
+        if (dateA) return -1;
+        if (dateB) return 1;
+
+        const numA = parseInt(a.number) || 0;
+        const numB = parseInt(b.number) || 0;
         return numB - numA;
       });
 
@@ -65,42 +69,30 @@ fetch("episodes.json")
       episodeCard.classList.add("episode-card");
 
       grouped[year].forEach((ep, i) => {
-        const episode = document.createElement("div");
-        episode.classList.add("episode");
+        const episodeLabel =
+          ep.number === undefined || ep.number === "" ? "" :
+          isNaN(ep.number) ? ep.number :
+          `Episode ${ep.number}`;
 
-        episode.innerHTML = `
-          <img src="${ep.image}" alt="${ep.title} cover" class="cover">
-          <div class="content">
-            <div class="meta top">
-              <span class="episode-number">EPISODE ${String(ep.number).padStart(2, '0')}</span>
+        episodeCard.innerHTML += `
+          <div class="episode">
+            <img src="${ep.image}" alt="${ep.title} cover" class="cover">
+            <div class="content">
+              <div class="meta top">
+                <span class="episode-number">${episodeLabel}</span>
+              </div>
+              <h2>${ep.title}</h2>
+              <p class="desc">${ep.description}</p>
+              <div class="meta bottom">
+                <span class="duration">(${ep.duration})</span>
+              </div>
             </div>
-            <h2>${ep.title}</h2>
-            <p class="desc">${ep.description}</p>
-            <div class="meta bottom">
-              <span class="duration">(${ep.duration})</span>
+            <div class="status-container">
+              <div class="status-dot new"></div>
             </div>
           </div>
-          <div class="status-container">
-            <div class="status-dot new"></div>
-          </div>
+          ${i < grouped[year].length - 1 ? '<hr class="episode-divider">' : ''}
         `;
-
-        // Optional hidden release date (kept for sorting, not shown)
-        if (ep.release_date) {
-          const hiddenDate = document.createElement("span");
-          hiddenDate.classList.add("release-date");
-          hiddenDate.style.display = "none";
-          hiddenDate.textContent = ep.release_date;
-          episode.appendChild(hiddenDate);
-        }
-
-        episodeCard.appendChild(episode);
-
-        if (i < grouped[year].length - 1) {
-          const divider = document.createElement("hr");
-          divider.classList.add("episode-divider");
-          episodeCard.appendChild(divider);
-        }
       });
 
       episodesDiv.appendChild(episodeCard);
@@ -110,18 +102,20 @@ fetch("episodes.json")
     });
 
     // Collapsible years
-    document.querySelectorAll('.year-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const yearGroup = btn.closest('.year-group');
+    document.querySelectorAll(".year-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const yearGroup = btn.closest(".year-group");
         const episodesDiv = btn.nextElementSibling;
-        const isHidden = episodesDiv.style.display === 'none';
-        episodesDiv.style.display = isHidden ? 'block' : 'none';
-        yearGroup.classList.toggle('collapsed', !isHidden);
+        const isHidden = episodesDiv.style.display === "none";
+        episodesDiv.style.display = isHidden ? "block" : "none";
+        yearGroup.classList.toggle("collapsed", !isHidden);
       });
     });
   })
   .catch(err => console.error("Error loading episodes:", err));
 </script>
+
 </body>
 </html>
+
 
