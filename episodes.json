@@ -1,10 +1,46 @@
 [
   {
     "year": "2025",
+    "number": 61,
+    "title": "The Nutella Under the Petella",
+    "description": "[add description]",
+    "duration": "9:25",
+    "image": "images/photo_03.png",
+    "release_date": "2025-03-01"
+  },  
+  {
+    "year": "2025",
+    "number": 60,
+    "title": "The February Files - Case #02282025",
+    "description": "[add description]",
+    "duration": "15:48",
+    "image": "images/photo_02.png",
+    "release_date": "2025-02-28"
+  },   
+  {
+    "year": "2025",
+    "number": 59,
+    "title": "The February Files - Case #02202025",
+    "description": "[add description]",
+    "duration": "9:35",
+    "image": "images/photo_02.png",
+    "release_date": "2025-02-21"
+  },  
+  {
+    "year": "2025",
+    "number": 58,
+    "title": "The February Files - Case #02122025",
+    "description": "[add description]",
+    "duration": "6:43",
+    "image": "images/photo_02.png",
+    "release_date": "2025-02-14"
+  },   
+  {
+    "year": "2025",
     "number": 57,
     "title": "The February Files - Case #02072025",
     "description": "[add description]",
-    "duration": "7:16",
+    "duration": "7:35",
     "image": "images/photo_02.png",
     "release_date": "2025-02-07"
   },   
@@ -531,6 +567,7 @@
     "release_date": "2023-12-09"
   }
 ]	
+
 
 
 
