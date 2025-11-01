@@ -1,11 +1,182 @@
 [
   {
     "year": "2025",
+    "number": 78,
+    "title": "Dino Park Walk",
+    "description": "[add description]",
+    "duration": null,
+    "image": "images/photo_03.png",
+    "release_date": "2025-07-07"
+  },  
+  {
+    "year": "2025",
+    "number": 78,
+    "title": "Dino Park",
+    "description": "[add description]",
+    "duration": null,
+    "image": "images/photo_02.png",
+    "release_date": "2025-07-07"
+  },  
+  {
+    "year": "2025",
+    "number": 77,
+    "title": "Everyone's Prickly",
+    "description": "Alfie gets himself into a sticky situation - and everyone is affected.",
+    "duration": null,
+    "image": "images/photo_01.png",
+    "release_date": "2025-07-01"
+  },  
+  {
+    "year": "2025",
+    "number": 76,
+    "title": "Scar",
+    "description": "Alfie invents a cyberpunk character.",
+    "duration": null,
+    "image": "images/photo_04.png",
+    "release_date": "2025-06-28"
+  },  
+  {
+    "year": "2025",
+    "number": 75,
+    "title": "ChatGPT",
+    "description": "[add description]",
+    "duration": null,
+    "image": "images/photo_03.png",
+    "release_date": "2025-06-21"
+  },  
+  {
+    "year": "2025",
+    "number": 74,
+    "title": "Dairy Day Parade",
+    "description": "[add description]",
+    "duration": null,
+    "image": "images/photo_02.png",
+    "release_date": "2025-06-14"
+  },    
+  {
+    "year": "2025",
+    "number": 74,
+    "title": "Dairy Day Parade",
+    "description": "[add description]",
+    "duration": null,
+    "image": "images/photo_01.png",
+    "release_date": "2025-06-07"
+  },   
+  {
+    "year": "2025",
+    "number": 73,
+    "title": "Circus",
+    "description": "[add description]",
+    "duration": null,
+    "image": "images/photo_04.png",
+    "release_date": "2025-06-01"
+  },  
+  {
+    "year": "2025",
+    "number": 72,
+    "title": "Dentist Visit",
+    "description": "[add description]",
+    "duration": null,
+    "image": "images/photo_03.png",
+    "release_date": "2025-05-21"
+  }, 
+  {
+    "year": "2025",
+    "number": 71,
+    "title": "No Front Teeth",
+    "description": "[add description]",
+    "duration": null,
+    "image": "images/photo_02.png",
+    "release_date": "2025-05-14"
+  },  
+  {
+    "year": "2025",
+    "number": 70,
+    "title": "Salamander!",
+    "description": "Alfie and Everett go on a nature walk.",
+    "duration": null,
+    "image": "images/photo_01.png",
+    "release_date": "2025-05-07"
+  },  
+  {
+    "year": "2025",
+    "number": 69,
+    "title": "Chika",
+    "description": "Guest star Everett sings his favorite song.",
+    "duration": null,
+    "image": "images/photo_04.png",
+    "release_date": "2025-05-01"
+  },  
+  {
+    "year": "2025",
+    "number": 68,
+    "title": "Easter Slime",
+    "description": "[video]",
+    "duration": null,
+    "image": "images/photo_03.png",
+    "release_date": "2025-04-14"
+  },   
+  {
+    "year": "2025",
+    "number": 67,
+    "title": "Makeover",
+    "description": "[add description]",
+    "duration": "7:46",
+    "image": "images/photo_02.png",
+    "release_date": "2025-04-07"
+  },  
+  {
+    "year": "2025",
+    "number": 66,
+    "title": "Here We Go Again...",
+    "description": "[add description]",
+    "duration": "7:21",
+    "image": "images/photo_01.png",
+    "release_date": "2025-04-01"
+  },  
+  {
+    "year": "2025",
+    "number": 65,
+    "title": "Tooth Fairy FAQ",
+    "description": "[add description]",
+    "duration": "13:17",
+    "image": "images/photo_04.png",
+    "release_date": "2025-03-28"
+  },  
+  {
+    "year": "2025",
+    "number": 64,
+    "title": "The Ballad of Alfies Loose Tooth",
+    "description": "[add description]",
+    "duration": "7:35",
+    "image": "images/photo_03.png",
+    "release_date": "2025-03-21"
+  },   
+  {
+    "year": "2025",
+    "number": 63,
+    "title": "Alfies Loose Tooth",
+    "description": "[add description]",
+    "duration": "7:39",
+    "image": "images/photo_02.png",
+    "release_date": "2025-03-14"
+  },   
+  {
+    "year": "2025",
+    "number": 62,
+    "title": "Blood Moon Timelapse",
+    "description": "[timelapse of the total lunar eclipse]",
+    "duration": null,
+    "image": "images/photo_01.png",
+    "release_date": "2025-03-07"
+  },   
+  {
+    "year": "2025",
     "number": 61,
     "title": "The Nutella Under the Petella",
     "description": "[add description]",
     "duration": "9:25",
-    "image": "images/photo_03.png",
+    "image": "images/photo_04.png",
     "release_date": "2025-03-01"
   },  
   {
@@ -14,7 +185,7 @@
     "title": "The February Files - Case #02282025",
     "description": "[add description]",
     "duration": "15:48",
-    "image": "images/photo_02.png",
+    "image": "images/photo_03.png",
     "release_date": "2025-02-28"
   },   
   {
@@ -23,7 +194,7 @@
     "title": "The February Files - Case #02202025",
     "description": "[add description]",
     "duration": "9:35",
-    "image": "images/photo_02.png",
+    "image": "images/photo_03.png",
     "release_date": "2025-02-21"
   },  
   {
@@ -32,7 +203,7 @@
     "title": "The February Files - Case #02122025",
     "description": "[add description]",
     "duration": "6:43",
-    "image": "images/photo_02.png",
+    "image": "images/photo_03.png",
     "release_date": "2025-02-14"
   },   
   {
@@ -41,7 +212,7 @@
     "title": "The February Files - Case #02072025",
     "description": "[add description]",
     "duration": "7:35",
-    "image": "images/photo_02.png",
+    "image": "images/photo_03.png",
     "release_date": "2025-02-07"
   },   
   {
@@ -50,7 +221,7 @@
     "title": "January Play - Animals",
     "description": "[add description]",
     "duration": "7:16",
-    "image": "images/photo_02.png",
+    "image": "images/photo_03.png",
     "release_date": "2025-01-28"
   },  
   {
@@ -567,6 +738,7 @@
     "release_date": "2023-12-09"
   }
 ]	
+
 
 
 
